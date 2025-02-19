@@ -11,13 +11,17 @@
     <header id="just"></header>
     <canvas id="canv" style="display: none;"></canvas>
     <img src="WITWARS.png" width="auto" height="300"><br>
+   
         <table border="4" width="1000" class="table">
             <tbody>
               <tr>
                 <td class="text" style="text-align: right;" colspan="4">
-                    Guessed Correct : <input type="text" id="score" readonly="true" size="3" value="0"><br><br> Wrong Attempts : <input type="text" id="fails" readonly="true" size="3" value="0"></td>
-                    <!-- <br><br> Correct Words: <input type="text" id="correctGuesses" readonly="true" size="3" value="0"><br><br> -->
+                    Guessed Correct : <input type="text" id="score" readonly="true" size="3" value="0"><br><br> Wrong Attempts : <input type="text" id="fails" readonly="true" size="3" value="0"></td>      
+                    <div id="movieNameDiv" class="hidden"></div>
+                    <button class="toggle-button" onclick="toggleMovieName()">Show</button>    
 
+                    <!-- <br><br> Correct Words: <input type="text" id="correctGuesses" readonly="true" size="3" value="0"><br><br> -->
+                    
                 <td colspan="7">
                     <center>
                         <input id="display1" readonly=true value="---Hangman---">
@@ -30,7 +34,13 @@
                 <td colspan="2" id="justbutton">
                     <center>
                         <input type="button" value="Start" class="button" onclick="Start()">
+                        
+
+                       
+
+
                     </center>
+                    
                 </td>
               </tr>
               <tr>

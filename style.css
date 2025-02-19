@@ -12,6 +12,27 @@ table {
     border-collapse: collapse;
     border: 2px solid 	#ed1b76; /* Dark Teal */
 }
+#movieNameDiv {
+    text-align: center;
+    color: #ed1b76;
+    font-size: 15px;
+   
+    display: none;
+}
+
+.toggle-button {
+    background-color: #030303;
+    color: #ffffff;
+    border: 2px solid #0a0a0a;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    width: 100px;
+}
+
+
+
 
 table td {
     text-align: center;
@@ -38,6 +59,10 @@ button:hover {
     background-color: #f44786; /* Accent Pink */
 }
 
+/* .toggle-button:hover{
+    background-color: #1a030c; /* Accent Pink */
+
+} */
 .image {
     display: block;
     margin-left: auto;

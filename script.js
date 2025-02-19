@@ -55,6 +55,23 @@ function Start() {
     document.getElementById("fails").value = failed; // Reset fails display
 }
 
+
+function toggleMovieName() {
+    var movieDiv = document.getElementById("movieNameDiv");
+    var button = document.querySelector(".toggle-button");
+
+    if (movieDiv.style.display === "none" || movieDiv.style.display === "") {
+        movieDiv.style.display = "block";
+        movieDiv.textContent = chosenWord;
+        button.textContent = "Hide";
+    } else {
+        movieDiv.style.display = "none";
+        movieDiv.textContent = "";
+        button.textContent = "Show";
+    }
+}
+
+
 // Handle user guesses
 function handleGuess(str) {
     if (tries.indexOf(str) === -1) {
