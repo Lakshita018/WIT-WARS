@@ -1,4 +1,4 @@
-var words = ["Dil Chahta Hai","Kapoor & Sons","Taare Zameen Par","Gangs of Wasseypur","House of Secrets","House of Cards","The Walking Dead","Alice in Borderland","Kabhi Alvida Naa Kehna","The Vampire Diaries","The Adam Project","The Theory of Everything","Interstellar","Laapataa Ladies","Young Sheldon","Yeh Jawaani Hai Deewani","The Notebook","The Conjuring","The Girl on the Train","Murder Mubarak","Never Have I Ever","Humpty Sharma Ki Dulhania","Chor Nikal Ke Bhaga","Gangubai Kathiawadi","Jurassic World","Madagascar","The Good Doctor","Emily in Paris","The Girl Next Door","Black Warrant","The Railway Men","Gully Boy","Mission Majnu","Bajrangi Bhaijaan","Lucky Bhaskar","Bhool Bhulaiyaa","Kho Gaye Hum Kahan","The Fame Game","Kaala Paani","Death Note","Delhi Crime","Yeh Kaali Kaali Aankhein"
+var words = ["Dil Chahta Hai","Kapoor and Sons","Taare Zameen Par","Gangs of Wasseypur","House of Secrets","House of Cards","The Walking Dead","Alice in Borderland","Kabhi Alvida Naa Kehna","The Vampire Diaries","The Adam Project","The Theory of Everything","Interstellar","Laapataa Ladies","Young Sheldon","Yeh Jawaani Hai Deewani","The Notebook","The Conjuring","The Girl on the Train","Murder Mubarak","Never Have I Ever","Humpty Sharma Ki Dulhania","Chor Nikal Ke Bhaga","Gangubai Kathiawadi","Jurassic World","Madagascar","The Good Doctor","Emily in Paris","The Girl Next Door","Black Warrant","The Railway Men","Gully Boy","Mission Majnu","Bajrangi Bhaijaan","Lucky Bhaskar","Bhool Bhulaiyaa","Kho Gaye Hum Kahan","The Fame Game","Kaala Paani","Death Note","Delhi Crime","Yeh Kaali Kaali Aankhein"
 ];
 var buttons = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
 var score = 0;
@@ -9,8 +9,8 @@ var chosenWord;
 var wordStatus = null;
 var correctWords = 0;
 var failed = 0;
-var usedWords = []; // Array to store used words
- // Track the number of wrong guesses
+var usedWords = []; 
+ 
 
 // Generate a random word or phrase
 function generateWord() {
